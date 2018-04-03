@@ -1,0 +1,7 @@
+<form action="{% url 'index' %}" method = "post">
+{% csrf_token %}
+<input type="text" maxlength="200" placeholder = "Add question">
+<br>
+<br>
+<input type="submit" value="Submit">
+</form>

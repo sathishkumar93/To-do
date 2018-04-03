@@ -1,0 +1,10 @@
+<form action="/polls/addquestion/" method="post">
+    {% csrf_token %}
+    {{ form1 }}
+<!--    <select>
+        <option value="1">New</option>
+        <option value="2">In progress</option>
+        <option value="3">Done</option>
+    </select> -->
+    <input type="submit" value="Submit" />
+</form>
